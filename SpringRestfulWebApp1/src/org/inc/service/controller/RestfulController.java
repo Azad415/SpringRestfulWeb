@@ -11,7 +11,7 @@ public class RestfulController
 	 @RequestMapping(value = "/{name}", method = RequestMethod.GET)
 	 public String getGreeting(@PathVariable String name)
 	 {
-	  String result="Hello Azad"+name;  
+	  String result="Hello Mr. Azad"+name;  
 	  return result;
 	}
 }
